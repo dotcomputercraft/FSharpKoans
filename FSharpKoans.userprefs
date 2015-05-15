@@ -1,0 +1,33 @@
+﻿<Properties StartupItem="FSharpKoans.Core/FsharpKoans.Core.fsproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FSharpKoans/AboutLet.fs">
+    <Files>
+      <File FileName="FSharpKoans/AboutAsserts.fs" Line="38" Column="33" />
+      <File FileName="FSharpKoans/AboutLet.fs" Line="85" Column="29" />
+      <File FileName="FSharpKoans/AboutFunctions.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutTheOrderOfEvaluation.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutUnit.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutTuples.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutStrings.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutBranching.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutLists.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutPipelining.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutArrays.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutLooping.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/MoreAboutFunctions.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutDotNetCollections.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutTheStockExample.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutRecordTypes.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutOptionTypes.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutDiscriminatedUnions.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutModules.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/AboutClasses.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/PathToEnlightenment.fs" Line="1" Column="1" />
+      <File FileName="FSharpKoans/App.config" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

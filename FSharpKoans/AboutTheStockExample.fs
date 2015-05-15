@@ -55,8 +55,40 @@ module ``about the stock example`` =
     // tests for yourself along the way. You can also try 
     // using the F# Interactive window to check your progress.
 
+
+    [<Koan>]
+    let GetOpeningPrice() =
+        let item = stockData.Head
+        let result(x: string) =  (x.Split ',').[1]
+        
+        AssertEquality "Open" (result item)
+        result item |> AssertEquality "Open"
+
+    [<Koan>]
+    let GetClosingPrice() =
+        let item = stockData.Head
+        let result(x: string) =  (x.Split ',').[4]
+        
+        AssertEquality 
+            <|"Close"
+            <|result item
+
+    [<Koan>]
+    let GetDiff() =
+        let item = stockData.Tail.Head
+        let GetClose(x: string) =  (x.Split ',').[4]
+        let GetOpen(x: string) =  (x.Split ',').[1]
+        let test = abs(float(GetClose(item)) - float(GetOpen(item)))
+        AssertEquality
+        <|32.40 - 32.26
+        <| test
+
     [<Koan>]
     let YouGotTheAnswerCorrect() =
-        let result =  __
+        let GetClose(x: string) =  (x.Split ',').[4]
+        let GetOpen(x: string) =  (x.Split ',').[1]
+        let GetDiff(x: string) = abs(float(GetClose(x)) - float(GetOpen(x)))
+        //let getLow (text: string) = text.Split [|]
+        let result =  List.maxBy GetDiff stockData.Tail
         
-        AssertEquality "2012-03-13" result
+        AssertEquality "2012-03-13" (result.Split ',').[0]
